@@ -657,6 +657,7 @@ p.arrival-review span {margin-right: 15px;}
 /*-------------------------------------
         6. Sofa-coolection
 --------------------------------------*/
+
 #sofa-collection {
     position: relative;
     z-index: 99;
@@ -713,6 +714,70 @@ p.arrival-review span {margin-right: 15px;}
 
 .btn-cart.welcome-add-cart.sofa-collection-btn{height: 50px;line-height: 50px;}
 
+
+            
+
+    .onboarding-collection {
+        z-index: 999;
+        background-image: url('assets/images/onboarding/onboarding.png');
+        background-color: #000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px 0;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .onboarding-collection-txt {
+        
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .onboarding-collection h2 {
+        z-index: 999;
+        color: #333;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .onboarding-collection p {
+        z-index: 999;
+        color: #666;
+        margin-bottom: 30px;
+    }
+    .onboarding-collection-price {
+        z-index: 999;
+        margin-bottom: 30px;
+    }
+    .onboarding-collection-price h4 {
+        z-index: 999;
+        font-size: 24px;
+        color: #333;
+    }
+    .onboarding-collection-price span {
+        z-index: 999;
+        color: #e74c3c;
+        font-weight: bold;
+    }
+    .onboarding-collection-btn {
+        z-index: 999;
+        background-color: #3498db;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .onboarding-collection-btn:hover {
+        z-index: 999;
+        background-color: #2980b9;
+    }
 /*-------------------------------------
         7. Features
 --------------------------------------*/
